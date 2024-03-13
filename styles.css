@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .container-fluid.bg-dark {
   background: radial-gradient(ellipse at 33% 50%, #100A09 70%, #221211);
   height: 70vh;
