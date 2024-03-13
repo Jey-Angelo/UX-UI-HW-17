@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -28,7 +31,7 @@ html {
   left: 15%;
   width: 0;
   height: 2px;
-  background-color: #E5C2A8; /* Change color as per your design */
+  background-color: #E5C2A8; 
   transition: width 0.3s ease;
 }
 
@@ -185,12 +188,12 @@ html {
 }
 
 .accordion .card-header h2 {
-  font-size: 4.5rem; /* 72px */
+  font-size: 4.5rem; 
   line-height: 1;
 }
 
 .accordion .btn {
-  font-size: 4.5rem; /* 72px */
+  font-size: 4.5rem; 
   line-height: 1;
   text-decoration: none;
   color: #100A09;
@@ -199,7 +202,7 @@ html {
 
 .accordion .btn:hover,
 .accordion .btn:focus {
-  text-decoration: none; /* Remove underline on hover and focus */
+  text-decoration: none; 
   color: #383B1C;
   outline: none !important;
 }
@@ -315,3 +318,33 @@ html {
   padding-bottom: 1rem;
 
 }
+
+.sticky-navbar {
+  background: radial-gradient(ellipse at 33% 50%, #100A09 70%, #221211);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1000;
+  transition: background-color 0.5s ease, opacity 0.5s ease, height 0.5s ease, padding 0.5s ease, box-shadow 0.5s ease, font-size 0.5s ease, border 0.5s ease, margin 0.5s ease;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  left: 0;
+}
+
+  #top {
+    padding-top: 70px;
+    margin-top: -70px;
+    }
+   #about {
+       padding-top: 70px;
+       margin-top: -70px;
+   }
+  #work {
+    padding-top: 70px;
+    margin-top: -70px;
+     }
+  #contact {
+      padding-top: 70px;
+      margin-top: -70px;
+     }
